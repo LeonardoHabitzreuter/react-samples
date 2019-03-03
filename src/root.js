@@ -7,4 +7,4 @@ const Root = () => (
   <App />
 )
 
-export default hot(module)(Root) 
+export default hot(module)(Root)
