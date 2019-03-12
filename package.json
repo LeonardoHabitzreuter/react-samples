@@ -4,7 +4,7 @@
   "description": "react components samples",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jest",
+    "test": "./node_modules/.bin/jest --watch",
     "start": "node server.js",
     "build": "./node_modules/.bin/webpack --progress --config webpack/prod.config -p",
     "lint": "./node_modules/.bin/standard --parser babel-eslint"
